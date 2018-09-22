@@ -1,29 +1,59 @@
-`<!DOCTYPE html>`
-    `<html lang="en">`
-    `<head>`
-    `<meta charset="UTF-8">`
+<!DOCTYPE html>
+<html lang="en">
 
-        <title>Student Bio</title>
+<head> 
+    <title>Student Bio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0px;
+        }
+        .container {
+            width: 100%;
+            position: relative;
+        }
+        .header {
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+        .leftContainer {
+            width: 70%;
+            float: left;
+        }
+        .rightContainer {
+            width: 30%;
+            float: left;
+        }
 
-    </head>
-    <body>
+    </style> 
+</head>
 
-            <h1>Daksh Malhotra</h1>
+<body>
+    <div class="container">
+        <div class="header">Student Bio</div>
 
+        <section class="leftContainer">
+            <h2>Daksh Malhotra </h2> 
+            <img src="https://vignette.wikia.nocookie.net/pixar/images/a/a5/I2_-_Dash.png/revision/latest?cb=20180621012105" alt="Dash"> 
+            <p>A little about me: Im 18 years old, my birthday is September 25th 1999. I was born in New Delhi India
+                and moved to Mississauga Canada in 2002 when I was about 3 years old. Since I was a child I've always
+                been interusted in technology, which is why I am persuing my career in what I love.</p>
+        </section>
 
-            <img src="https://vignette.wikia.nocookie.net/pixar/images/a/a5/I2_-_Dash.png/revision/latest?cb=20180621012105" alt="Dash">
-            
-            <p>A little about me: Im 18 years old, my birthday is September 25th 1999. I was born in New Delhi India and moved to Mississauga Canada in 2002 when I was about 3 years old. Since I was a child I've always been interusted in technology, which is why I am persuing my career in what I love.</p>
-
-    <h3> Contact Info </h3>
-
-            <ul>
-
-                 <li>Email: dakshmalhotra@hotmail.com
-                 <li>Github: dakshmalhotra
-                 <li>Portfolio: coming soon
-    
-             </ul> 
-  
+        <section class="rightContainer">
+            <h3> Contact Info </h3>
+            <ul class="bold">
+                <li>Email: dakshmalhotra@hotmail.com
+                <li>Github: dakshmalhotra
+                <li>Portfolio: coming soon
+            </ul>
+        </section>
+    </div>
 </body>
+
 </html>
